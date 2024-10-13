@@ -1,0 +1,24 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+        .h-704px {
+            height: 704px;
+        }
+
+        .h-576px {
+            height: 576px;
+        }
+
+        .h-688px {
+            height: 688px;
+        }
+
+        .h-624px {
+            height: 624px;
+        }
+    }
+}
