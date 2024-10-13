@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/image"],
   
-    ssr: true,
+    ssr:false,
   
     components: [
       {
