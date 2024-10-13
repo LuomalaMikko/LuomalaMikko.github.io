@@ -12,7 +12,7 @@ export default defineNuxtConfig({
           { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ]
       },
-      baseURL: "/LuomalaMikko.github.io/",
+      baseURL: "/",
     },
     nitro: {
       prerender: {
